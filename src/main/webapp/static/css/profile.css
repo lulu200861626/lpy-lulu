@@ -1,0 +1,45 @@
+.profile-edit {
+    padding-left: 10px;
+    white-space: nowrap;
+    resize: none;
+    outline: none;
+    background: rgba(0, 0, 0, 0.8);
+    border: 0px;
+    width: 750px;
+    min-height: 200px;
+    font-size: 14px;
+    color: wheat;
+    margin: 0px;
+}
+
+.profile-show {
+    padding-left: 10px;
+    background: rgba(0, 0, 0, 0.7);
+    border: 0px;
+    margin: 0px;
+    width: 750px;
+    border-radius: 0px;
+}
+
+.footer {
+    /*position: absolute;*/
+    /*bottom: 0;*/
+    margin-top: 10px;
+    width: 100%;
+    height: 50px;
+    clear: both;
+    padding-top: 15px;
+    border-top: 1px solid #D7DBDD;
+}
+
+.span-tag {
+    display: inline-block;
+    color: white;
+    padding: 5px;
+    background: rgba(0, 0, 0, 0.8);
+    cursor:pointer;
+}
+.span-tag.span-tag-unselect{
+    color: black;
+    background: rgba(0, 0, 0, 0.0);
+}
